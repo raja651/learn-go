@@ -19,4 +19,10 @@ func main() {
 	minus := doArithmetic(10, 7, subtract)
 
 	fmt.Println(sum, minus)
+
+	fmt.Println(paradise("Amsterdam"))
+}
+
+func paradise(loc string) string {
+	return fmt.Sprint("My idea of paradise is: ", loc)
 }
